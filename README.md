@@ -83,7 +83,7 @@ The analysis utilizes the official airline passenger satisfaction survey dataset
 ## 📂 Project Directory Structure
 
 ```
-Airline_Passenger_Satisfaction_Project/
+FlightPath-to-Loyalty/
 │
 ├── airline_passenger_satisfaction.csv      # Main raw dataset (129,880 rows)
 ├── data_dictionary.csv                     # Official column definitions reference
@@ -113,23 +113,55 @@ Airline_Passenger_Satisfaction_Project/
 
 ## 🚀 Installation & Setup Instructions
 
-### 1. Clone or Navigate to the Workspace:
+### 1. Clone the Repository
+
 ```bash
-cd Airline_Passenger_Satisfaction_Project
+git clone https://github.com/piyushsinha15/FlightPath-to-Loyalty.git
+cd FlightPath-to-Loyalty
 ```
 
-### 2. Set Up a Virtual Environment:
+### 2. Create a Virtual Environment
+
 ```bash
 python -m venv venv
-# On Windows:
-.\venv\Scripts\activate
-# On Linux/macOS:
+```
+
+### 3. Activate the Virtual Environment
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux/macOS:**
+
+```bash
 source venv/bin/activate
 ```
 
-### 3. Install Dependencies:
+### 4. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
+```
+
+### 5. Run the Jupyter Notebook
+
+```bash
+jupyter notebook Piyush_FlightPath_to_Loyalty.ipynb
+```
+
+### 6. Run the Streamlit Dashboard
+
+```bash
+streamlit run app.py
+```
+
+The dashboard will open at:
+
+```text
+http://localhost:8501
 ```
 
 ---
@@ -137,14 +169,17 @@ pip install -r requirements.txt
 ## 💻 How to Run
 
 ### Run the Jupyter Notebook:
+
 ```bash
 jupyter notebook Piyush_FlightPath_to_Loyalty.ipynb
 ```
 
 ### Launch the Streamlit Interactive Dashboard:
+
 ```bash
 streamlit run app.py
 ```
+
 *The dashboard will automatically open in your default browser at `http://localhost:8501`.*
 
 ---
